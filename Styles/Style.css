@@ -1,0 +1,157 @@
+body{
+    background-color: #ebbff7;
+    color: white;
+    font-family: Poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header :hover{
+    color: #F07EAD;
+    transition: 0.3s all;
+}
+
+
+#title{
+    font-size: 30px;
+    flex-direction: column;
+    line-height: 10px;
+    
+
+}
+
+
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color:#ffffff
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+h2{
+    
+    display: flex;
+    font-size: 45px;
+    line-height: 14px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: #F07EAD;
+}
+jota{
+    color: #F07EAD;
+}
+
+p{
+    line-height:20px;
+    max-width: 500px;
+    font-family: poppinsbold;
+}
+
+.mãeimagem{
+
+    max-width: 700px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.mãeimagem:hover{
+    zoom: 40%;
+
+   
+}
+
+.conf{
+    font-family: poppinslight;
+    font-size: 20px;
+    margin-left: 30px;
+    text-decoration-line: overline;
+}
+
+.lista{
+    
+    border: 2px  inset  ;
+    border-radius: 10px;
+    border-color: #F07EAD;
+    transition: 0.5s all;
+    padding: 5px;
+   }
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [ type="submit"]{
+     background-color: white;
+    height: 50px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+
+form:hover [ type="submit"]{
+    cursor: pointer;
+    background-color: #F07EAD;
+    transition: 0.9s;
+
+}
+
+input{
+    margin-top: 20px;
+    height:20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+
+}
+article{
+    z-index: -1;
+}
+
+.gradient-background {
+  background-image: linear-gradient(to right, #64233e, #8a2951, #bd3a70, #c9487e, #e05991, #e775a5, #f3a5c5);
+  background-size: 1000% 1000%;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.gradient-background{
+    border: 2px solid #ffffff;
+    padding-left: 2% ;
+    padding-right: 2% ;
+    border-radius: 4%;
+}
